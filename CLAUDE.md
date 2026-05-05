@@ -4,7 +4,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Static educational website for **ICT pro** – a Czech IT training agency. The site is deployed on **GitHub Pages** (`https://luki007007.github.io/web_ict_pro-/`) with no build step, no framework, and no package manager.
+Static educational website for **ICT pro** – a Czech IT training agency. The site is deployed on **GitHub Pages** with no build step, no framework, and no package manager.
+
+- **Live URL:** `https://luki007007.github.io/web_ict_pro-/`
+- **GitHub repo:** `https://github.com/Luki007007/web_ict_pro-.git`
 
 ## Deployment
 
@@ -42,6 +45,20 @@ Course cards use `data-color="blue|purple|teal"` attribute to switch accent colo
 ## Course Page Pattern
 
 All three `kurz-*.html` files share the same layout: navbar → `.kurz-hero` (color-coded) → `.kurz-body` with a two-column grid (`.kurz-main` + `.kurz-sidebar`). When adding a new course page, follow this pattern and assign one of the three hero color classes (`kurz-hero-blue`, `kurz-hero-purple`, `kurz-hero-teal`).
+
+### Course overview
+
+| Course | File | Color | Price | Format | Duration |
+|---|---|---|---|---|---|
+| Analýza dat – Power BI | `kurz-powerbi.html` | blue | 9 900 Kč | 2-day intensive | 24 h / 8 modules |
+| Programování pomocí Claude | `kurz-claude.html` | purple | 8 900 Kč | weekly online (18–20h) | 20 h / 6 modules |
+| T-SQL snadno a rychle | `kurz-tsql.html` | teal | 7 900 Kč | 3-day intensive | 18 h / 7 modules |
+
+All prices are without VAT (bez DPH), with instalment option (možnost splátek).
+
+## Hero Floating Cards
+
+The three animated cards in the hero section (`index.html`) are `<a>` elements (not `<div>`), each linking directly to a course page. They have `z-index: 2` so they sit above the decorative `.hero-circle`. On hover, animation pauses and a blue border appears. Do not convert them back to `<div>` – they must remain links.
 
 ## Language
 
