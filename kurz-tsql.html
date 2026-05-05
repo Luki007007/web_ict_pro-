@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>T-SQL snadno a rychle | ICT pro</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="kurz.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="logo"><span class="logo-ict">ICT</span><span class="logo-pro">pro</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html#kurzy">Kurzy</a></li>
+        <li><a href="index.html#o-nas">O nás</a></li>
+        <li><a href="index.html#kontakt">Kontakt</a></li>
+      </ul>
+      <a href="index.html#kurzy" class="btn-nav">Všechny kurzy</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <div class="kurz-hero kurz-hero-teal">
+    <div class="container">
+      <a href="index.html#kurzy" class="back-link">← Zpět na kurzy</a>
+      <div class="kurz-hero-content">
+        <div class="kurz-icon-big">🗄️</div>
+        <div>
+          <div class="kurz-tags">
+            <span class="tag tag-teal">Databáze</span>
+            <span class="tag tag-level">Začátečník</span>
+          </div>
+          <h1>T-SQL<br /><strong>snadno a rychle</strong></h1>
+          <p class="kurz-sub">Ovládněte databázový jazyk Microsoft SQL Server od základů. Pište efektivní dotazy, pracujte s daty a stavějte databázové procedury – jednoduše a prakticky.</p>
+          <div class="kurz-meta-bar">
+            <span>⏱ 18 hodin výuky</span>
+            <span>📋 7 modulů</span>
+            <span>🎓 Certifikát</span>
+            <span>💻 Online i prezenčně</span>
+          </div>
+          <div class="hero-cta">
+            <a href="index.html#kontakt" class="btn-primary btn-teal">Přihlásit se ke kurzu</a>
+            <a href="#obsah" class="btn-ghost">Obsah kurzu</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="kurz-body">
+    <div class="container kurz-layout">
+      <div class="kurz-main">
+
+        <div class="kurz-section" id="obsah">
+          <h2>Co se naučíte</h2>
+          <div class="outcomes-grid">
+            <div class="outcome outcome-teal"><span>🔍</span> Psát SELECT dotazy od jednoduchých po složité</div>
+            <div class="outcome outcome-teal"><span>🔗</span> Spojovat tabulky pomocí JOIN operací</div>
+            <div class="outcome outcome-teal"><span>📊</span> Agregovat data pomocí GROUP BY</div>
+            <div class="outcome outcome-teal"><span>⚙️</span> Vytvářet uložené procedury a funkce</div>
+            <div class="outcome outcome-teal"><span>🚀</span> Optimalizovat dotazy a pracovat s indexy</div>
+            <div class="outcome outcome-teal"><span>🔐</span> Spravovat uživatele a oprávnění</div>
+          </div>
+        </div>
+
+        <div class="kurz-section">
+          <h2>Obsah kurzu – moduly</h2>
+          <div class="modules">
+            <div class="module module-teal">
+              <div class="module-num">01</div>
+              <div class="module-content">
+                <h4>Úvod do relačních databází</h4>
+                <p>Co je SQL Server, jak fungují relační databáze, tabulky, klíče a vztahy.</p>
+              </div>
+            </div>
+            <div class="module module-teal">
+              <div class="module-num">02</div>
+              <div class="module-content">
+                <h4>Základní SELECT dotazy</h4>
+                <p>SELECT, FROM, WHERE, ORDER BY, DISTINCT. Filtrování a řazení dat.</p>
+              </div>
+            </div>
+            <div class="module module-teal">
+              <div class="module-num">03</div>
+              <div class="module-content">
+                <h4>Spojování tabulek – JOINy</h4>
+                <p>INNER JOIN, LEFT/RIGHT JOIN, FULL OUTER JOIN, CROSS JOIN. Praktické příklady.</p>
+              </div>
+            </div>
+            <div class="module module-teal">
+              <div class="module-num">04</div>
+              <div class="module-content">
+                <h4>Agregace a GROUP BY</h4>
+                <p>COUNT, SUM, AVG, MIN, MAX. GROUP BY a HAVING. Analytické funkce (ROW_NUMBER, RANK).</p>
+              </div>
+            </div>
+            <div class="module module-teal">
+              <div class="module-num">05</div>
+              <div class="module-content">
+                <h4>Poddotazy a CTE</h4>
+                <p>Subqueries v SELECT, WHERE, FROM. Common Table Expressions (WITH klauzule).</p>
+              </div>
+            </div>
+            <div class="module module-teal">
+              <div class="module-num">06</div>
+              <div class="module-content">
+                <h4>Uložené procedury a funkce</h4>
+                <p>CREATE PROCEDURE, parametry, transakce, uživatelem definované funkce (UDF).</p>
+              </div>
+            </div>
+            <div class="module module-teal">
+              <div class="module-num">07</div>
+              <div class="module-content">
+                <h4>Výkon a optimalizace</h4>
+                <p>Execution plan, indexy, statistiky. Jak psát dotazy, které jsou rychlé i na velkých datech.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="kurz-section">
+          <h2>Pro koho je kurz určen</h2>
+          <ul class="for-who">
+            <li>Analytici a reportéři, kteří chtějí získávat data přímo z databáze bez IT závislosti</li>
+            <li>Začínající vývojáři, kteří potřebují solidní základy SQL</li>
+            <li>Uživatelé Power BI, kteří chtějí psát vlastní SQL dotazy jako zdroj dat</li>
+            <li>Správci dat a BI specialisté přecházející na Microsoft SQL Server</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <aside class="kurz-sidebar">
+        <div class="sidebar-card sidebar-card-teal">
+          <div class="price-label">Cena kurzu</div>
+          <div class="price">7 900 Kč</div>
+          <div class="price-note">bez DPH · možnost splátek</div>
+          <a href="index.html#kontakt" class="btn-primary btn-teal" style="display:block;text-align:center;margin-top:20px">Přihlásit se</a>
+          <div class="sidebar-details">
+            <div class="sd-row"><span>📅 Délka</span><strong>2 týdny</strong></div>
+            <div class="sd-row"><span>🕐 Hodin</span><strong>18 h</strong></div>
+            <div class="sd-row"><span>📋 Modulů</span><strong>7</strong></div>
+            <div class="sd-row"><span>🌐 Forma</span><strong>Online + prezenčně</strong></div>
+            <div class="sd-row"><span>🎓 Certifikát</span><strong>Ano</strong></div>
+            <div class="sd-row"><span>🗣 Jazyk</span><strong>Čeština</strong></div>
+          </div>
+        </div>
+        <div class="sidebar-other">
+          <h4>Další kurzy</h4>
+          <a href="kurz-powerbi.html" class="other-course">📊 Analýza dat – Power BI</a>
+          <a href="kurz-claude.html" class="other-course">🤖 Programování pomocí Claude</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <footer class="footer" id="kontakt">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo"><span class="logo-ict">ICT</span><span class="logo-pro">pro</span></a>
+          <p>Vzdělávací agentura zaměřená na IT dovednosti pro moderní pracovní trh.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Kurzy</h4>
+          <ul>
+            <li><a href="kurz-powerbi.html">Analýza dat – Power BI</a></li>
+            <li><a href="kurz-claude.html">Programování pomocí Claude</a></li>
+            <li><a href="kurz-tsql.html">T-SQL snadno a rychle</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Kontakt</h4>
+          <ul>
+            <li>📧 info@ictpro.cz</li>
+            <li>📞 +420 123 456 789</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom"><p>&copy; 2026 ICT pro s.r.o. Všechna práva vyhrazena.</p></div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
