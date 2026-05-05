@@ -2,8 +2,9 @@ Zkontroluj změny v projektu a proveď commit + push na GitHub podle níže uved
 
 ## Pravidla pro tento projekt
 
-**Repo:** `https://github.com/Luki007007/web_ict_pro-.git`  
-**Větev:** `main` (jediná větev, GitHub Pages nasazuje z `main`)  
+**Primární repo (origin):** `https://github.com/Luki007007/web_ICTPRO.git`  
+**GitHub Pages repo (pages):** `https://github.com/Luki007007/web_ict_pro-.git`  
+**Větev:** `main` (jediná větev)  
 **Žádný build krok** – soubory se commitují přímo, žádné `npm run build` ani podobné.
 
 ## Postup
@@ -25,9 +26,10 @@ Zkontroluj změny v projektu a proveď commit + push na GitHub podle níže uved
    ```
    git commit -m "typ: popis"
    ```
-6. Pushni na GitHub:
+6. Pushni na oba remoty:
    ```
-   git push
+   git push                # origin – web_ICTPRO (primární)
+   git push pages main     # web_ict_pro- – živý GitHub Pages web
    ```
 7. Potvrď, že push proběhl (`git log --oneline -3`).
 

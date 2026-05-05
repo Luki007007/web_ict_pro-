@@ -7,16 +7,18 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 Static educational website for **ICT pro** – a Czech IT training agency. The site is deployed on **GitHub Pages** with no build step, no framework, and no package manager.
 
 - **Live URL:** `https://luki007007.github.io/web_ict_pro-/`
-- **GitHub repo:** `https://github.com/Luki007007/web_ict_pro-.git`
+- **GitHub repo (primary):** `https://github.com/Luki007007/web_ICTPRO.git` (remote: `origin`)
+- **GitHub repo (GitHub Pages):** `https://github.com/Luki007007/web_ict_pro-.git` (remote: `pages`)
 
 ## Deployment
 
-Push to `main` branch → GitHub Pages auto-deploys. No build command needed.
+Push to `main` branch on both remotes. GitHub Pages deploys from `web_ict_pro-`. No build command needed.
 
 ```powershell
 git add <files>
 git commit -m "message"
-git push
+git push              # pushes to origin (web_ICTPRO)
+git push pages main   # pushes to GitHub Pages repo (web_ict_pro-)
 ```
 
 The `.nojekyll` file in the root must remain – it prevents GitHub Pages from running Jekyll processing.
@@ -29,6 +31,7 @@ The `.nojekyll` file in the root must remain – it prevents GitHub Pages from r
 | `kurz-powerbi.html` | Power BI course detail page |
 | `kurz-claude.html` | Claude AI programming course detail page |
 | `kurz-tsql.html` | T-SQL course detail page |
+| `podminky-uzivani.html` | Terms of use page (12 sections, linked from all footers) |
 | `style.css` | Global styles (navbar, hero, course cards, footer, responsive) |
 | `kurz.css` | Styles shared across all three course detail pages |
 | `main.js` | Minimal JS – navbar scroll shadow + mobile hamburger menu |
