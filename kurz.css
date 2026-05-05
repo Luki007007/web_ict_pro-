@@ -17,7 +17,7 @@
   padding: 120px 0 64px;
   color: var(--white);
 }
-.kurz-hero-blue   { background: linear-gradient(135deg, #1d4ed8 0%, #2563eb 60%, #3b82f6 100%); }
+.kurz-hero-blue   { background: linear-gradient(135deg, #a2002a 0%, #d50037 60%, #f0244f 100%); }
 .kurz-hero-purple { background: linear-gradient(135deg, #5b21b6 0%, #7c3aed 60%, #9333ea 100%); }
 .kurz-hero-teal   { background: linear-gradient(135deg, #0f766e 0%, #0d9488 60%, #14b8a6 100%); }
 
@@ -148,7 +148,7 @@
   border-radius: 10px;
   font-size: .9rem;
   font-weight: 500;
-  color: #1e3a8a;
+  color: #7f0020;
 }
 .outcome span { font-size: 1.2rem; flex-shrink: 0; }
 
@@ -309,7 +309,7 @@
   flex-shrink: 0;
   transition: background .2s, transform .15s;
 }
-.btn-termin:hover { background: #1d4ed8; transform: translateY(-1px); }
+.btn-termin:hover { background: #a2002a; transform: translateY(-1px); }
 
 .btn-termin-purple { background: var(--purple); }
 .btn-termin-purple:hover { background: #6d28d9; }

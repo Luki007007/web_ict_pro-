@@ -5,8 +5,8 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --blue:   #2563eb;
-  --blue-light: #dbeafe;
+  --blue:   #d50037;
+  --blue-light: #fde8ee;
   --purple: #7c3aed;
   --purple-light: #ede9fe;
   --teal:   #0d9488;
@@ -52,9 +52,9 @@ img { max-width: 100%; }
   font-weight: 600;
   font-size: .95rem;
   transition: background .2s, transform .15s, box-shadow .2s;
-  box-shadow: 0 4px 16px rgba(37,99,235,.35);
+  box-shadow: 0 4px 16px rgba(213,0,55,.35);
 }
-.btn-primary:hover { background: #1d4ed8; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(37,99,235,.4); }
+.btn-primary:hover { background: #a2002a; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(213,0,55,.4); }
 
 .btn-ghost {
   display: inline-block;
@@ -117,7 +117,7 @@ img { max-width: 100%; }
   font-size: .9rem;
   transition: background .2s, transform .15s;
 }
-.btn-nav:hover { background: #1d4ed8; transform: translateY(-1px); }
+.btn-nav:hover { background: #a2002a; transform: translateY(-1px); }
 
 .hamburger {
   display: none;
@@ -226,7 +226,7 @@ img { max-width: 100%; }
 }
 .floating-card:hover {
   border-color: var(--blue);
-  box-shadow: 0 20px 48px rgba(37,99,235,.18);
+  box-shadow: 0 20px 48px rgba(213,0,55,.18);
   animation-play-state: paused;
 }
 .floating-card .card-icon { font-size: 1.5rem; }
@@ -454,7 +454,7 @@ img { max-width: 100%; }
 }
 
 .footer-brand p { font-size: .9rem; margin-top: 12px; line-height: 1.7; max-width: 260px; }
-.footer-brand .logo-ict { color: #60a5fa; }
+.footer-brand .logo-ict { color: #ff6b85; }
 .footer-brand .logo-pro { color: var(--white); }
 
 .footer-col h4 { color: var(--white); font-size: .95rem; font-weight: 700; margin-bottom: 16px; }
